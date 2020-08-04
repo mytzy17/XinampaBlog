@@ -1,0 +1,75 @@
+{
+  "_from": "strapi-plugin-graphql@3.1.2",
+  "_id": "strapi-plugin-graphql@3.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-qHny5620DtioV3ZKZHPqhun8XJEaV1P/1SaSHpP6T+G9M0xuBWLhlBlnA5lhOsug7vfWmgO3tW/n50ZhdDpkdw==",
+  "_location": "/strapi-plugin-graphql",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-graphql@3.1.2",
+    "name": "strapi-plugin-graphql",
+    "escapedName": "strapi-plugin-graphql",
+    "rawSpec": "3.1.2",
+    "saveSpec": null,
+    "fetchSpec": "3.1.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-graphql/-/strapi-plugin-graphql-3.1.2.tgz",
+  "_shasum": "923d42870aad91870d6146fc9d65136a3b04cbf3",
+  "_spec": "strapi-plugin-graphql@3.1.2",
+  "_where": "/Users/mytzy17/Desktop/blog/backend",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@apollo/federation": "^0.15.0",
+    "apollo-server-koa": "2.16.0",
+    "dataloader": "^1.4.0",
+    "glob": "^7.1.4",
+    "graphql": "^14.3.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-playground-middleware-koa": "^1.6.0",
+    "graphql-tools": "4.0.6",
+    "graphql-type-json": "0.3.1",
+    "graphql-type-long": "^0.1.1",
+    "koa-compose": "^4.1.0",
+    "lodash": "4.17.19",
+    "pluralize": "^8.0.0",
+    "strapi-utils": "3.1.2"
+  },
+  "deprecated": false,
+  "description": "This is the description of the plugin.",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "koa": "^2.8.0",
+    "rimraf": "3.0.0"
+  },
+  "engines": {
+    "node": ">=10.10.0",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "6aaa018ff50c8c94df872672c9e51ae65bc99e04",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "name": "strapi-plugin-graphql",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "graphql",
+    "icon": "plug",
+    "description": "Description of graphql plugin."
+  },
+  "version": "3.1.2"
+}
